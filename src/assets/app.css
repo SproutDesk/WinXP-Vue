@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug {
+    border: red 1px solid;
+}
+@font-face {
+    font-family: "Trebuchet MS";
+    src: url("./fonts/trebuchetms.ttf") format("ttf")
+}
+.font-trebuchet {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+@font-face {
+    font-family: "Segoe UI";
+    src: url("./fonts/segoeui.ttf") format("ttf")
+}
+.font-segoeui {
+    font-family: 'Segoe UI', sans-serif;
+}
+@font-face {
+    font-family: "Tahoma";
+    src: url("./fonts/tahoma.ttf") format("ttf")
+}
+.font-tahoma {
+    font-family: Tahoma, sans-serif;
+}
