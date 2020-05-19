@@ -1,7 +1,10 @@
 <template>
     <div class="h-screen flex flex-col">
         <div class="desktop h-full w-full overflow-hidden relative bg-cover">
-            <AppWindow />
+            <AppWindow
+            title="Test Title 1">
+                AAAAAAAAAAAA
+            </AppWindow>
         </div>
         <SystemTaskbar />
     </div>
